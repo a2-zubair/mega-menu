@@ -1,0 +1,28 @@
+* {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown {
+  background-color: brown;
+  position: absolute;
+  display: none;
+}
+
+nav > ul > li:hover > .dropdown {
+  display: block;
+}
